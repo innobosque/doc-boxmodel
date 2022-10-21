@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Columnas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1 class="title main-title">
+    Modelo Caja <br>
+    <span class="caja border padding margin">
+        content padding boder margin
+    </span>
+</h1>
+<section class="section">
+    <h2 class="title">Definición</h2>
+    <p>El modo de representación de un elemento dentro de un <em>documento web</em> es el llamado <strong>modelo caja</strong>. Éste se ve como un <mark>rectángulo</mark> junto con sus propiedades</p>
+    <p>Como veremos a continuación en realidad un <strong>elemento</strong> está formado por varias <em>cajas</em> solapadas</p>
+</section>
+<section class="section">
+    <h2 class="title">Propiedades</h2>
+    <dl class="definitions">
+        <dt>margin</dt>
+        <dd>Es una área vacía existente entre el elemento considerado y el resto de componentes de un documento (se considera fuera del documento)</dd>
+        <dt>border</dt>
+        <dd>Es una extensión de la zona de relleno (<strong>padding</strong>). Propiedades de <strong>border</strong>:
+            <ul>
+                <li>border-style</li>
+                <li>border-width</li>
+                <li>border-color</li>
+            </ul>
+        </dd>
+        <dt id="padding">padding</dt>
+        <dd>Es una extensión del <strong>contenido del elemento</strong>. Crea una zona vacía interna al mismo.</dd>
+        <dt>contenido</dt>
+        <dd>Es un espacio definido a través de las propiedades <em>width</em> y <em>height</em></dd>
+    </dl>
+</section>
+<section class="section">
+    <h2 class="title">Tamaño de la caja</h2>
+    <code>
+        Tamaño Caja = Tamaño Contenido + padding + border
+    </code>
+</section>
+<section class="section">
+    <h2 class="title">Definición</h2>
+    <p>El modo de representación de un elemento dentro de un <em>documento web</em> es el llamado <strong>modelo caja</strong>. Éste se ve como un <mark>rectángulo</mark> junto con sus propiedades</p>
+    <p>Como veremos a continuación en realidad un <strong>elemento</strong> está formado por varias <em>cajas</em> solapadas</p>
+</section>
+<section class="section">
+    <h2 class="title">display</h2>
+    <p>La propiedad <strong>display</strong> nos permite modificar el estilo de caja aplicado a un elemento dado. Entre sus valores destacamos:</p>
+    <dl class="definitions">
+        <dt>display: block</dt>
+        <dd>Transforma un <strong>elemento HTML</strong> en bloque</dd>
+        <dt>display: inline</dt>
+        <dd>Transforma un <strong>elemento HTML</strong> en elemento en línea</dd>
+        <dt>display: inline-block</dt>
+        <dd>Transforma un <strong>elemento HTML</strong> en línea y bloque simultáneamente: se comporta como un elemento en bloque pero con respecto a los elementos que la rodean es una caja en línea</dd>
+        <dt>display: flex</dt>
+        <dd><a target="_blank" href="https://flexboxfroggy.com/#es">Juego de flexbox</a></dd>
+    </dl>
+</section>
+</body>
+</html>
