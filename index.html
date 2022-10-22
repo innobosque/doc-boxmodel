@@ -56,7 +56,19 @@
         <dt>display: block</dt>
         <dd>Transforma un <strong>elemento HTML</strong> en bloque</dd>
         <dt>display: inline</dt>
-        <dd>Transforma un <strong>elemento HTML</strong> en elemento en línea</dd>
+        <dd>Transforma un <strong>elemento HTML</strong> en elemento en línea. Características: 
+            <ul>
+                <li>Son apilables</li>
+                <li>No tienen ni <em>margin-top</em> ni <em>margin-bottom</em></li>
+                <li>No respetan ni <em>width</em> ni <em>height</em>. Estas medidas dependerán del tamaño en píxels de su contenido</li>
+                <li>
+                    <dl>
+                        <dt>Elementos <strong>inline</strong><dt>
+                        <dd>a, span, label, strong, br, input, textarea, abbr, b, basefont, bdo, big, cite, code, dfn, em, i, kbd, q, s, samp, select, small, strike, sub, sup, u, var</dd>
+                    </dl>
+                </li>
+            </ul>
+        </dd>
         <dt>display: inline-block</dt>
         <dd>Transforma un <strong>elemento HTML</strong> en línea y bloque simultáneamente: se comporta como un elemento en bloque pero con respecto a los elementos que la rodean es una caja en línea</dd>
         <dt>display: flex</dt>
