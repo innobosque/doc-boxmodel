@@ -54,7 +54,18 @@
     <p>La propiedad <strong>display</strong> nos permite modificar el estilo de caja aplicado a un elemento dado. Entre sus valores destacamos:</p>
     <dl class="definitions">
         <dt>display: block</dt>
-        <dd>Transforma un <strong>elemento HTML</strong> en bloque</dd>
+        <dd>Transforma un <strong>elemento HTML</strong> en bloque. Características:
+            <ul>
+                <li>Fuerzan un salto de línea. <mark>Ocupan el ancho disponible</mark></li>
+                <li>Respetan el <em>width</em>, el <em>height</em>, el <em>margin-top</em> y el <em>margin-bottom</em> indicados por el usuario.</li>
+                <li>
+                    <dl>
+                        <dt>Elementos <strong>block</strong></dt>
+                        <dd>div, section, article, aside, nav, footer,header, p, h1, h2, h3, h4, h5, h6, hr, ol, ul, table, li, address, blockquote, center, dir, dl, fieldset, formisindex, noframes, noscript, pre, dd, dt, frameset, tbody, td, tfoot, th, thead, tr</dd>
+                    </dl>
+                </li>
+            </ul>
+        </dd>
         <dt>display: inline</dt>
         <dd>Transforma un <strong>elemento HTML</strong> en elemento en línea. Características: 
             <ul>
